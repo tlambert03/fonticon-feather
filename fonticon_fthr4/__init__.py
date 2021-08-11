@@ -4,7 +4,7 @@ from pathlib import Path
 from enum import Enum
 
 
-class Feather(Enum):
+class Feather4(Enum):
     @classmethod
     def _font_file(self) -> str:
         fonts = Path(__file__).parent / "fonts"
